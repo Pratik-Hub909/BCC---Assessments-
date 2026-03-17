@@ -54,3 +54,6 @@ print(len(fruit))
 
 #6 Prod of array except self: 
 """Given an array, return an array where each element is the prod of all the elements in the array except itself."""
+
+
+#7 Time Conversion 
