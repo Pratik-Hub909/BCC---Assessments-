@@ -56,4 +56,21 @@ print(len(fruit))
 """Given an array, return an array where each element is the prod of all the elements in the array except itself."""
 
 
-#7 Time Conversion 
+#7 Time Conversion - Hackerrank 
+
+
+#8 Two Sum - LeetCode
+
+def Twosum(num, target):
+    for i in range(len(num)):
+        for j in range(i+1, len(num)):
+            pair_sum = num[i] + num[j]
+            if pair_sum == target:
+                return [i, j]
+
+num = [2,7,11,15]
+target = 9
+
+print(Twosum(num, target))
+
+
