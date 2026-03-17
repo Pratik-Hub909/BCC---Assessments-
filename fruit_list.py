@@ -1,4 +1,3 @@
-
 #1
 frulist1 = ['apple', 'berry', 'cherry', 'papaya']
 frulist2 = frulist1 
