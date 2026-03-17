@@ -30,4 +30,10 @@ def func(value, values):
 t = 3
 v = [1,2,3]
 func(t,v)
-print(t, v[0])      
+print(t, v[0])     
+
+
+#4
+dict = {'c': 97, 'a': 96, 'b': 98}
+for _ in sorted(dict):
+    print(dict[_]) 
