@@ -90,4 +90,18 @@ init_tuple = ((1, 2),) * 7
 print(len(init_tuple[3:8]))
 
 
+#10
+# Block 1: Empty string replacement
+s = ""
+s1 = s.replace("difficult", "easy")
+print(s1) 
+# Output: (An empty string is printed)
+
+# Block 2: All occurrences replacement
+s = "abababababab"
+s1 = s.replace("a", "b")
+print(s1)
+# Output: bbbbbbbbbbbb
+
+
 
