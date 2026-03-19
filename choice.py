@@ -123,3 +123,7 @@ else:
     print("your entered city is invalid")
 
 
+#12 list comprehension 
+s = [i for i in range(1, 11)]
+print(s)
+
