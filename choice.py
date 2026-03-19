@@ -137,3 +137,10 @@ print(val)
 val2=[i for i in s if i%2==0]#i=1
 print(val2)
 
+
+#13 Dictionary Comprehension:
+
+squares={x:x*x for x in range(1,6)}#x=6
+print(squares)
+
+
