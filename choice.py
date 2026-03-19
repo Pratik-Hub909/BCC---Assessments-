@@ -40,3 +40,17 @@ Nested function
          print("This is the inner function")
      inner_function()  #Calling the inner function
  outer_function()  #Calling the outer function
+
+
+#3
+# input= prashant is good programmer
+#WAP to count the word
+#output = 4
+name ="prashant is good programmer"
+count =1
+for i in name:#i=0
+    if i == " ":
+        count += 1
+    else:
+        continue
+print("Total word count =",count)
