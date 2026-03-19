@@ -54,3 +54,10 @@ for i in name:#i=0
     else:
         continue
 print("Total word count =",count)
+
+
+#4
+init_tuple_a = 'a', 'b'
+init_tuple_b = ('a', 'b')
+print (init_tuple_a == init_tuple_b)
+
