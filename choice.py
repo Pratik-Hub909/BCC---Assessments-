@@ -79,3 +79,11 @@ init_tuple = ('Python') * 3
 print(type(init_tuple))
 
 
+#8
+init_tuple = (1,) * 3
+init_tuple[0] = 2
+print(init_tuple)
+
+
+#9
+
